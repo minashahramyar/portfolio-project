@@ -93,3 +93,23 @@ p {
   background: #f9f7fe;
   padding: 160px 20px;
 }
+
+.project-description {
+  padding: 120px 60ox;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+}
